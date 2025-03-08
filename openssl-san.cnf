@@ -9,13 +9,13 @@ distinguished_name = dn
 C  = US
 ST = California
 L  = Los_Angeles
-O  = HO2_Life
-CN = nginx
+O  = OpenNetwork
+CN = ocpp-broker
 
 [ req_ext ]
 subjectAltName = @alt_names
 
 [ alt_names ]
 DNS.1 = localhost
-DNS.2 = nginx
+DNS.2 = ocpp-broker
 IP.1 = 172.20.0.5
